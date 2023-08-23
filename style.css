@@ -678,3 +678,40 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+/* Reset de estilos básicos para evitar comportamentos indesejados */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos da seção de portfólio */
+.portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos dos trabalhos individuais */
+.work {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px;
+}
+
+.work img {
+    max-width: 100%;
+}
+
+.work h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.work p {
+    font-size: 1rem;
+}
